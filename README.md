@@ -1,2 +1,3 @@
 # portfolio
-This repository is creatd in order to create my personal oprtfolio
+This repository is creatd in order to create my personal oprtfolio.
+The main concept is taken from **Start Bootstrap**
