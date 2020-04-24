@@ -92,6 +92,8 @@
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    margin-left: 130px;
+    margin-top: 2rem;
   }
   
   .social-icons a:last-child {
@@ -99,7 +101,8 @@
   }
   
   .social-icons a:hover {
-    background-color: #BD5D38;
+    background-color: rgb(0, 0, 0, 0.35);
+    color: #1884f1 !important;
   }
   
   .dev-icons {
