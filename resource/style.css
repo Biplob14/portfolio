@@ -24,10 +24,12 @@
 .about-page .resume-section .lead {
   margin: 2px;
   padding: 5rem;
-  background: rgba(221, 221, 221, 0.34);
+  background: rgba(221, 221, 221, 0.69);
   box-sizing: border-box;
   border-radius: 20px;
-  color: #fff
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 500;
 }
   
   h1,
