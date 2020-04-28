@@ -121,6 +121,19 @@
   
   .dev-icons {
     font-size: 3rem;
+    display: flex;
+    /* justify-content: initial; */
+  }
+  .dev-icons li i {
+    margin: 20px;
+  }
+
+  .dev-icons .list-inline-item i {
+    margin right: 50px;
+  }
+
+  .without-logo{
+    font-size: 0.7em;
   }
   
   .dev-icons .list-inline-item i:hover {
@@ -184,6 +197,10 @@
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
       display: block;
     }
+  }
+
+  .without-logo{
+    display: inline-block;
   }
   
   section.resume-section {
