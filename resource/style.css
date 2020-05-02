@@ -117,6 +117,7 @@
   .social-icons a:hover {
     background-color: rgb(0, 0, 0, 0.35);
     color: #1884f1 !important;
+    cursor: pointer;
   }
   
   .dev-icons {
@@ -126,6 +127,7 @@
   }
   .dev-icons li i {
     margin: 20px;
+    cursor: pointer;
   }
 
   .dev-icons .list-inline-item i {
@@ -134,6 +136,11 @@
 
   .without-logo{
     font-size: 0.7em;
+    cursor: pointer;
+  }
+
+  .without-logo:hover {
+    color: #BD5D38;
   }
   
   .dev-icons .list-inline-item i:hover {
