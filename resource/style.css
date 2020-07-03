@@ -40,10 +40,6 @@
   background-color: #060c21;
   width: 100%;
 }
-
-.edu-descripton {
-  
-}
   
   h1,
   h2,
@@ -219,6 +215,50 @@
   section.resume-section .resume-item .resume-date {
     min-width: none;
   }
+
+
+  /* portfolio section  */
+
+  .container {
+    position: relative;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 16px;
+  }
+
+  /* portfiloi section end  */
   
   @media (min-width: 768px) {
     section.resume-section {
