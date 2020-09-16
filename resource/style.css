@@ -2,6 +2,7 @@
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
     color: #868e96;
+    background-color: #909090;
   }
   
   @media (min-width: 992px) {
@@ -21,14 +22,14 @@
     position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-attachment: fixed;
   }
 
 .about-page .resume-section .lead {
   margin: 2px;
   padding: 5rem;
-  background: rgba(221, 221, 221, 0.69);
+  background: rgba(221, 221, 221, 0.49);
   box-sizing: border-box;
   border-radius: 20px;
   color: #000;
@@ -152,6 +153,15 @@
   
   #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e;
+  }
+  #skills {
+    background: #060606;
+  }
+  #portfolio {
+    background: #060C21;
+  }
+  #awards {
+    background: #060606;
   }
   
   @media (min-width: 992px) {
