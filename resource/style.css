@@ -90,7 +90,10 @@
   .subheading>i{
     color: #cd4d00bf;
   }
-  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
   .social-icons a {
     display: inline-block;
     height: 3.5rem;
@@ -102,13 +105,13 @@
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
     margin-top: 2rem;
     transition: 0.4s ease-in-out;
   }
   
   .social-icons a:last-child {
-    margin-right: 0;
+    /*margin-right: 0;*/
   }
   
   .social-icons a:hover {
